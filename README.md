@@ -3,6 +3,7 @@ Simple Action RPG based on Gamesplusjames' youtube tutorial series "Unity RPG Tu
 Uses assets provided by the tutorial.
 
 Status
+* Playable [little content for now]
 * 31/40 lessons
 
 Note
