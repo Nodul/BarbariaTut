@@ -4,3 +4,6 @@ Uses assets provided by the tutorial.
 
 Status
 * 31/40 lessons
+
+Note
+* the release build is a 3 revisions old, I'll recompile it later
