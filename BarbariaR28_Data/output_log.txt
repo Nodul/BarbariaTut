@@ -1,0 +1,53 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x665c)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   21.19.413.0
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.032 seconds
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\Programming\Gry\Barbaria\BarbariaR28_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.227446 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1bdc -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.340877 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 410.
+Total: 0.713974 ms (FindLiveObjects: 0.047565 ms CreateObjectMapping: 0.045624 ms MarkObjects: 0.530263 ms  DeleteObjects: 0.071106 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.457943 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 851.
+Total: 0.820755 ms (FindLiveObjects: 0.087123 ms CreateObjectMapping: 0.069650 ms MarkObjects: 0.633403 ms  DeleteObjects: 0.028636 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.046450 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 410.
+Total: 0.619570 ms (FindLiveObjects: 0.044896 ms CreateObjectMapping: 0.045381 ms MarkObjects: 0.450663 ms  DeleteObjects: 0.076687 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.245838 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 851.
+Total: 0.395816 ms (FindLiveObjects: 0.040770 ms CreateObjectMapping: 0.022812 ms MarkObjects: 0.318400 ms  DeleteObjects: 0.013104 ms)
+
