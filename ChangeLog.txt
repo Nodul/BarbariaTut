@@ -23,7 +23,7 @@ Changelog: [The first 40 are simply lessons from the youtube channel. After that
 -----
 r32
 Added
--TODO few basic quests
+-basic goto quest + triggers for future quests
 
 r31
 Added:
