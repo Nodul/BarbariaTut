@@ -4,7 +4,7 @@ Uses assets provided by the tutorial.
 
 # Status
 * Playable [little content for now]
-* 31/40 lessons
+* 32/40 lessons
 
 # Notes
-* the release build is a 3 revisions old, I'll recompile it later
+
