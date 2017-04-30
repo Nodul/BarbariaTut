@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\PlayerHPManager.cs" />
     <Compile Include="Assets\Scripts\PlayerStartPoint.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\QuestItem.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
     <Compile Include="Assets\Scripts\QuestObject.cs" />
     <Compile Include="Assets\Scripts\QuestTrigger.cs" />

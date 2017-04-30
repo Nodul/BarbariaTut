@@ -10,10 +10,13 @@ public class EnemyHPManager : MonoBehaviour {
 
     private PlayerStats _playerStats;
 
+    public string EnemyQuestName;
+    QuestManager QM;
 
     // Use this for initialization
     void Start()
     {
+        QM = FindObjectOfType<QuestManager>();
         CurrentHP = MaxHP;
         _playerStats = FindObjectOfType<PlayerStats>();
     }
@@ -23,8 +26,10 @@ public class EnemyHPManager : MonoBehaviour {
     {
         if (CurrentHP <= 0)
         {
+            QM.EnemyKilled = this.EnemyQuestName;
             Destroy(gameObject);
             _playerStats.AddExperience(ExpValue);
+          
         }
 
     }

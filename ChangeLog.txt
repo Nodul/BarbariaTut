@@ -16,11 +16,28 @@ Issues
 TODO
 -to go from real time action rpg to more tactical action rpg, you can add tiles to act as pathfinding waypoints, and add pause [with spacebar or something], which will be a bit like Rimworld. This way you'll have the best of both worlds
 
+-Add 3rd area [to the west], where Slimes live
 
+-When you come close to a quest giver, he gives you the quest first [without pressing Space or anything] and only then will he start his dialogue. Should be the other way around
 
 #####################
 Changelog: [The first 40 are simply lessons from the youtube channel. After that I will start adding my own stuff]
 -----
+r35
+Changed:
+-Player movement [now uses a normalized Vector internally which simplifies everything + fixes inconsisted diagonal movement speed]
+Fixed:
+-Some small bugs [improper weapon placement at start, buggy dialogue if clicking Space too fast]
+-Animator had some duplicate entries? Deleted those
+
+r34
+Added
+-Hunt enemy quest 
+
+r33
+Added
+-Item quest
+
 r32
 Added
 -basic goto quest + triggers for future quests

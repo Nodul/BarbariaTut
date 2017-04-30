@@ -9,6 +9,9 @@ public class QuestManager : MonoBehaviour {
 
     public DialogManager DM;
 
+    public string ItemCollected;
+    public string EnemyKilled;
+
 	// Use this for initialization
 	void Start () {
         questsCompleted = new bool[quests.Length];
