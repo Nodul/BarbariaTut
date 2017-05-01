@@ -23,7 +23,11 @@ TODO
 #####################
 Changelog: [The first 40 are simply lessons from the youtube channel. After that I will start adding my own stuff]
 -----
-r38.
+r39
+Added:
+-Volume controls
+
+r38
 Added
 -Music
 

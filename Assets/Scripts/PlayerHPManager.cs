@@ -30,6 +30,7 @@ public class PlayerHPManager : MonoBehaviour {
             gameObject.SetActive(false); //And delete this once Respawn() works
 
             sfxMan.playerDead.Play();
+            
             //GameController.Respawn();
         }
         if (flashActive)
