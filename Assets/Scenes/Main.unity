@@ -1131,6 +1131,11 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!82 &231808083 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82947049333046028, guid: 4561091065325ff489c2829d87fd2c0a,
+    type: 2}
+  m_PrefabInternal: {fileID: 701702813}
 --- !u!1001 &253182175
 Prefab:
   m_ObjectHideFlags: 0
@@ -1991,6 +1996,48 @@ MonoBehaviour:
   - Hello there brave adventurer!
   - Why did you come here?
   - I see, the red slimes are to the south-west, please dispose of them.
+--- !u!1001 &489940911
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -22.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045580767016702, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bd5538d45708a8342a30389c1b7a036c, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &489986147 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 156046, guid: e34fd03c52426de499265c60e7fca3f2, type: 2}
@@ -2917,6 +2964,78 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1001 &701702813
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.705649
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.0760264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953780567321022, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 82947049333046028, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82492313961123516, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82947049333046028, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82492313961123516, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82947049333046028, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.494
+      objectReference: {fileID: 0}
+    - target: {fileID: 82492313961123516, guid: 4561091065325ff489c2829d87fd2c0a,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.494
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4561091065325ff489c2829d87fd2c0a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &710542563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,6 +3588,27 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &804558416 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1222551124098258, guid: 4561091065325ff489c2829d87fd2c0a,
+    type: 2}
+  m_PrefabInternal: {fileID: 701702813}
+--- !u!114 &804558417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 804558416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e4b8f2c7f60c54a8884514735e971e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicTracks:
+  - {fileID: 1935131661}
+  - {fileID: 231808083}
+  CurrentTrack: 0
+  MusicCanPlay: 1
 --- !u!1 &842246476
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,6 +7710,11 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!82 &1935131661 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82492313961123516, guid: 4561091065325ff489c2829d87fd2c0a,
+    type: 2}
+  m_PrefabInternal: {fileID: 701702813}
 --- !u!1 &1957974611
 GameObject:
   m_ObjectHideFlags: 0
