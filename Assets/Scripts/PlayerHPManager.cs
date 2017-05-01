@@ -13,8 +13,11 @@ public class PlayerHPManager : MonoBehaviour {
 
     private SpriteRenderer playerSprite;
 
+    private SFXManager sfxMan;
+
 	// Use this for initialization
 	void Start () {
+        sfxMan = FindObjectOfType<SFXManager>();
         playerSprite = GetComponent<SpriteRenderer>();
         playerCurrentHP = playerMaxHP;
 	}
@@ -26,6 +29,7 @@ public class PlayerHPManager : MonoBehaviour {
         {
             gameObject.SetActive(false); //And delete this once Respawn() works
 
+            sfxMan.playerDead.Play();
             //GameController.Respawn();
         }
         if (flashActive)
@@ -78,6 +82,8 @@ public class PlayerHPManager : MonoBehaviour {
             playerCurrentHP -= damage;
             flashActive = true;
             flashCounter = flashLength;
+
+            sfxMan.playerHurt.Play();
         }
       
     }

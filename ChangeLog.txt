@@ -23,6 +23,10 @@ TODO
 #####################
 Changelog: [The first 40 are simply lessons from the youtube channel. After that I will start adding my own stuff]
 -----
+r37
+Added:
+-Sound effects [sword swoosh, player dead, hurt etc]
+
 r36
 Changed:
 -Camera respects level bounds and is clamped to the map [doesn't show the blue Unity background anymore]

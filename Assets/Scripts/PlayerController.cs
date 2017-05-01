@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour {
     public float attackTime;
     private float attackTimeCounter;
 
+    private SFXManager sfxMan;
+
     public string startPoint;
 
     public bool canMove;
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour {
         canMove = true;
         anim = GetComponent<Animator>();
         rigid2D = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         if (!playerExists)
         {
@@ -112,6 +115,8 @@ public class PlayerController : MonoBehaviour {
                 isAttacking = true;
                 rigid2D.velocity = Vector2.zero;
                 anim.SetBool("isPlayerAttacking", true);
+
+                sfxMan.playerAttack.Play();
             }
 
             #region//[OLD]Are we moving diagonally?
