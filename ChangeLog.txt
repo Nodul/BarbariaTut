@@ -20,9 +20,15 @@ TODO
 
 -When you come close to a quest giver, he gives you the quest first [without pressing Space or anything] and only then will he start his dialogue. Should be the other way around
 
+-SFX and Music managers should be singletons
+
 #####################
 Changelog: [The first 40 are simply lessons from the youtube channel. After that I will start adding my own stuff]
 -----
+r40
+Added
+-Money system
+
 r39
 Added:
 -Volume controls
